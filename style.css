@@ -1,0 +1,232 @@
+/****************************     NAVBAR CSS ************************************/
+
+.navbar-nav .nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar-brand {
+    color: #02073E;
+    font-weight: 500;
+    font-family: FontAwesome;
+}
+
+.navbar-nav .nav-link {
+    font-family: FontAwesome;
+    font-weight: 500;
+}
+
+.navbar {
+    background: linear-gradient(45deg, rgba(224, 245, 250, 1), transparent) !important;
+
+}
+
+.try-for-free-link {
+
+    background-color: #ffb900db;
+    border-radius: 6px;
+}
+
+.try-for-free-link a {
+    color: #198754;
+    font-weight: bold;
+}
+
+/****************************     BANNER CSS ************************************/
+p {
+    font-family: "DM Sans", sans-serif !important;
+
+}
+
+h6 {
+    text-transform: uppercase;
+    color: rgba(239, 158, 72, 1);
+    font-family: "DM Sans", sans-serif;
+}
+
+h2 {
+    font-family: "DM Sans", sans-serif;
+}
+
+.banner {
+    height: auto;
+    background: linear-gradient(45deg, rgba(224, 245, 250, 1), transparent);
+}
+
+.banner .score span {
+    font-weight: 400;
+    font-family: "Heebo", sans-serif;
+}
+
+.banner .heading h1 {
+    font-size: 85px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+}
+
+/* .banner .heading h1::after{
+    content: "";
+    color: #E8751A;
+    width: 50px;
+    height: 8px;
+} */
+.banner .heading-paragraph {
+    font-family: "DM Sans", sans-serif;
+    line-height: 42px;
+}
+
+.banner .heading-paragraph input[type="text"]::placeholder {
+    font-family: "DM Sans", sans-serif, FontAwesome;
+}
+
+.banner .heading-paragraph .heading-paragraph-input {
+    width: 500px;
+    height: 70px;
+}
+
+
+/************************  Quality features *******************************/
+
+.Quality-features-heading {
+    text-align: center;
+}
+
+.Quality-features-heading h6 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    color: rgba(239, 158, 72, 1);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-body .score .fa-star {
+    color: yellow;
+}
+
+.card-body .cart-title {
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+}
+
+.card-body .card-description {
+    color: rgb(58, 57, 57);
+}
+
+
+
+/*************************************  Core features *******************************************/
+
+.Core-features {
+    height: auto;
+    background: linear-gradient(45deg, rgba(224, 239, 250, 0.35), transparent);
+
+}
+
+.Core-features .box {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 240px;
+    background-color: white;
+}
+
+.Core-features .box .content {
+    text-align: center;
+    padding: 30px;
+}
+
+.Core-features .box .content h2 {
+    font-family: "DM Sans", sans-serif;
+    color: rgba(239, 158, 72, 1);
+    font-weight: bolder;
+}
+
+.Core-features .box .content .card-one-fifty {
+    color: rgba(255, 117, 58, 1) !important;
+}
+
+.Core-features .box .content .card-ninty-k {
+    color: rgba(250, 87, 142, 1);
+}
+
+.Core-features .box .content .three-million {
+    color: rgba(230, 130, 255, 1);
+}
+
+
+.Core-features-content h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+}
+
+.btn-explore-details {
+    color: rgba(239, 158, 72, 1);
+    background-color: rgb(255, 223, 189);
+    font-weight: 400;
+}
+
+.popular-heading {
+    text-align: center;
+}
+
+/********************************* Popular-Designing-Course  *************************************************/
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.shadow .score .fa-star{
+    color: rgba(255, 206, 31, 1);
+    
+}
+
+
+
+
+/********************************* Let’s see how it works *************************************************/
+.Let-see-how-it-works{
+    height: auto;
+    background: linear-gradient(45deg, rgba(224, 245, 250, 1), transparent); 
+}
+
+.Let-see-how-it-works .heading{
+    text-align: center;
+    padding-top: 50px;
+}
+.Let-see-how-it-works  .counting p{
+  background: linear-gradient(rgba(76, 119, 171, 0.1));  
+  background: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding-top: 13px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.Let-see-how-it-works  .counting h5{
+    line-height: 34px;
+}
+.Let-see-how-it-works  .counting span{
+    font-family: "DM Sans", sans-serif;
+    line-height: 26px;
+}
+
+
+/********************************* Policy Section *************************************************/
+
+.policy-section .containt{
+    text-align: center;
+}
+.policy-section .content .plan-button{
+    background: rgb(83, 83, 83);
+    
+}
+.free-plan{
+    border: rgba(243, 244, 245, 1);
+}
+.show-details .fa-check-circle{
+  color: green;
+}
+.start-free-trail-button-left{
+    margin-top: 67px;
+}
+.Premium-plan{
+    border: 1px solid rgba(63, 219, 177, 1) !important;
+}
